@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server --port=5500",
     "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
     "prepare": "husky install",
-    "test": "vitest"
+    "test:unit": "vitest",
+    "test:e2e": "npx playwright test --ui"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,7 @@
     "globals": "^17.13.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
+    "live-server": "^1.2.2",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.3.3",
     "vitest": "^5.0.4"
