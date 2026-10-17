@@ -45,7 +45,7 @@ For this project I have added some scripts to make testing easier.
 5. Run tests:
 
 - To run unit tests
-  - npm run test:unit
+  - `npm run test:unit`
 - To run end-to-end tests
-  - npm run test:e2e
+  - `npm run test:e2e`
     If you do not want the UI on playwright tests, run `npx playwright test`
